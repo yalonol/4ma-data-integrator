@@ -1,0 +1,14 @@
+IDS:
+  PHASE_ID: babad8cc-63d2-4818-abff-8b0dce333806
+
+LOG_FILE_BASE: "project_42.log"
+FILE_ENCODING: "UTF-8"
+LAST_MODIFIED_FORMAT: '\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}'
+VERSIONING_FORMAT: '%y%m%d%H%M%S'
+DATE_TIME_FORMAT: '%Y_%m_%d_%H_%M_%S'
+HIVE_PARTITIONING_FORMAT: 'day=%Y-%m-%d'
+CRS_TYPE: 'EPSG:4326'
+VERBOSE: True
+WARNINGS_ALERT: False
+
+VAULT_URL: "https://vault.platform.4m-a.org:8200"

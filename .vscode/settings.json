@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 4,
+  "files.autoSave": "onFocusChange",
+  "code-runner.saveFileBeforeRun": true,
+  "python.pythonPath": "./.venv/bin/python",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.executorMap": {
+      "python": "python3 -u",
+    },
+  "editor.tokenColorCustomizations": {
+     "comments": "#ff0000"
+},
+"python.testing.unittestArgs": [
+  "-v",
+  "-s",
+  "./tests",
+  "-p",
+  "*test*.py"
+],
+"python.testing.pytestEnabled": false,
+"python.testing.nosetestsEnabled": false,
+"python.testing.pytestArgs": [
+  "tests"
+],
+"jupyter.jupyterServerType": "local",
+"python.analysis.extraPaths": [
+  "./dict_model_utils"
+],
+}
